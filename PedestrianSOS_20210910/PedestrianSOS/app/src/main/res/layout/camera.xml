@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false">
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        >
+
+        <ImageButton
+            android:id="@+id/facing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|top"
+            android:background="#1A0000FF"
+            android:contentDescription="@string/switchCamera"
+            app:srcCompat="@drawable/ic_outline_change_circle_48" />
+
+        <ImageButton
+            android:id="@+id/button_capture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:background="#1A0000FF"
+            android:contentDescription="@string/takePhotoButton"
+            app:srcCompat="@drawable/ic_baseline_circle_64" />
+
+        <ImageButton
+            android:id="@+id/button_capture2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:background="#1A0000FF"
+            android:contentDescription="@string/recordVideoButton"
+            app:srcCompat="@drawable/ic_baseline_circle_64"
+            app:tint="#FF0000" />
+
+    </FrameLayout>
+
+</LinearLayout>
