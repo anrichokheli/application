@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ქვეითი SOS!</string>
+    <string name="pedestrian">ქვეითი</string>
+    <string name="takePhotoButton">ფოტოს გადაღება</string>
+    <string name="recordVideoButton">ვიდეოს გადაღება</string>
+    <string name="choosePhotoButton">ფოტოს არჩევა</string>
+    <string name="chooseVideoButton">ვიდეოს არჩევა</string>
+    <string name="description">აღწერა</string>
+    <string name="writeDescription">დაწერეთ აღწერა…</string>
+    <string name="darkMode">მუქი რეჟიმი</string>
+    <string name="chosenImageContentDescription">არჩეული სურათი</string>
+    <string name="cancelButton">გაუქმება</string>
+    <string name="uploadButton">ატვირთვა</string>
+    <string name="uploadNotificationChannelName">ატვირთვა</string>
+    <string name="uploadNotificationChannelDescription">ატვირთვის (ფოტო; ვიდეო; მდებარეობა; აღწერა) შეტყობინებები</string>
+    <string name="photoUploadTitle">ფოტოს ატვირთვა</string>
+    <string name="videoUploadTitle">ვიდეოს ატვირთვა</string>
+    <string name="locationUploadTitle">მდებარეობის ატვირთვა</string>
+    <string name="descriptionUploadTitle">აღწერის ატვირთვა</string>
+    <string name="uploading">მიმდინარეობს ატვირთვა…</string>
+    <string name="uploaded">ატვირთვა დასრულდა</string>
+    <string name="locationNotificationChannelName">მდებარეობა</string>
+    <string name="locationNotificationChannelDescription">მდებარეობის კოორდინატები</string>
+    <string name="uploadError">ატვირთვა არ მოხდა!</string>
+    <string name="welcome">გამარჯობა!</string>
+    <string name="exit">დახურვა</string>
+    <string name="skip">გამოტოვება</string>
+    <string name="switchCamera">კამერის გადართვა</string>
+</resources>
