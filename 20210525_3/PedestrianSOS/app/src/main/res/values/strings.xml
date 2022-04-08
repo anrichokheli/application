@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">PedestrianSOS</string>
-    <string name="pedestrian_string">ქვეითი</string>
-    <string name="sos_string">SOS</string>
-    <string name="takePhotoButtonText">ფოტოს გადაღება</string>
-</resources>
